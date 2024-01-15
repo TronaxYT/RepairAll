@@ -1,0 +1,7 @@
+name: RepairAll
+version: '${version}'
+main: xyz.tronax.repairall.RepairAll
+api-version: '1.20'
+authors: [TronaxYT]
+description: Repairs all your items
+website: https://tronax.xyz
