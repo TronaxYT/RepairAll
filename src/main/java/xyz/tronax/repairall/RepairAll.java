@@ -12,7 +12,7 @@ public final class RepairAll extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        cmdmsg(prefix + " §aPlugin started successfully!");
+        cmdmsg(prefix + "§aPlugin started successfully!");
 
         registerCmd("repairall", new CMD_repairall());
 
@@ -23,7 +23,7 @@ public final class RepairAll extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        cmdmsg(prefix + " §cPlugin stopped successfully!");
+        cmdmsg(prefix + "§cPlugin stopped successfully!");
     }
 
 

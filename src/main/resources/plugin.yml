@@ -10,6 +10,7 @@ commands:
     description: Repairs all of your items!
     permission: repairall.repair
     permission-message: '§cRepair§7All §8| §cYou are not allowed to do this!'
+    usage: /repairall <player>
     aliases:
       - ra
       - repall
