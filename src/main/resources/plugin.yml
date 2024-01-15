@@ -5,3 +5,12 @@ api-version: '1.20'
 authors: [TronaxYT]
 description: Repairs all your items
 website: https://tronax.xyz
+commands:
+  repairall:
+    description: Repairs all of your items!
+    permission: repairall.repair
+    permission-message: '§cRepair§7All §8| §cYou are not allowed to do this!'
+    aliases:
+      - ra
+      - repall
+      - rall
