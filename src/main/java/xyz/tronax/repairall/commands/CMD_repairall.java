@@ -14,7 +14,7 @@ public class CMD_repairall implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(!(sender instanceof Player)) {
-            sender.sendMessage(RepairAll.prefix + " §cYou are not a player!");
+            sender.sendMessage(RepairAll.prefix + "§cYou are not a player!");
         } else {
             Player p = (Player) sender;
 
